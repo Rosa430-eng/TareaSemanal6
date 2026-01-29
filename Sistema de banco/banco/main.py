@@ -5,6 +5,7 @@ from modelo.cuenta import CuentaAhorros, CuentaCorriente
 cuenta1 = CuentaAhorros("María", 1500)
 cuenta2 = CuentaCorriente("Luis", 2000)
 
-# Mostrar resultados
+# Mostrar resultados de gestion
 mostrar_interes(cuenta1)
 mostrar_interes(cuenta2)
+
