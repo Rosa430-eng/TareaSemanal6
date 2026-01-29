@@ -32,3 +32,4 @@ class CuentaCorriente(Cuenta):
     def calcular_interes(self):
         # Polimorfismo: interés menor
         return self.get_saldo() * 0.01
+
